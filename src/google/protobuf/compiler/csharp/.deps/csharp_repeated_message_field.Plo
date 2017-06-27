@@ -1,0 +1,734 @@
+google/protobuf/compiler/csharp/csharp_repeated_message_field.lo: \
+ google/protobuf/compiler/csharp/csharp_repeated_message_field.cc \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/sstream \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/features.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/user_config.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/compat.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/host.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ioserr.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_sstream.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_exception.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstring.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/string.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/string.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stddef.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/using/cstring \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstddef.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_construct.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_new.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/new \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/cstddef \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/exception \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/wchar.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdio.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdio.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdarg.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/time.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/time.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/time.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/time.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_pair.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_locale.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdlib.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/alloca.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/strings.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/memory.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/math.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/math.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_threads.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/pthread.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/pthread.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/signal.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/signal.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/signal.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/ucontext.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/user.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sched.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_threads.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_alloc.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algobase.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/climits \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algobase.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iterator.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istream.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_limits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/cfloat \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/float.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_limits.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istream.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_sstream.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
+ google/protobuf/compiler/code_generator.h google/protobuf/stubs/common.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/string \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_hash.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_io.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
+ google/protobuf/stubs/port.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/assert.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/assert.h \
+ google/protobuf/stubs/platform_macros.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/param.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/param.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/param.h \
+ google/protobuf/stubs/macros.h google/protobuf/stubs/logging.h \
+ google/protobuf/stubs/scoped_ptr.h google/protobuf/stubs/mutex.h \
+ google/protobuf/stubs/callback.h google/protobuf/stubs/type_traits.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/utility \
+ google/protobuf/stubs/template_util.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/vector \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_vector.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_vector.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ google/protobuf/compiler/plugin.h google/protobuf/descriptor.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/memory \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h \
+ google/protobuf/stubs/shared_ptr.h google/protobuf/stubs/atomicops.h \
+ google/protobuf/stubs/atomicops_internals_generic_gcc.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/algorithm \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algo.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_heap.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_heap.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algo.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/set \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_set.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tree.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tree.c \
+ google/protobuf/stubs/once.h google/protobuf/descriptor.pb.h \
+ google/protobuf/io/coded_stream.h google/protobuf/arena.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/limits \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/typeinfo \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_typeinfo.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/typeinfo \
+ google/protobuf/stubs/atomic_sequence_num.h \
+ google/protobuf/arenastring.h google/protobuf/stubs/fastmem.h \
+ google/protobuf/generated_message_table_driven.h \
+ google/protobuf/message_lite.h google/protobuf/generated_message_util.h \
+ google/protobuf/has_bits.h google/protobuf/metadata.h \
+ google/protobuf/metadata_lite.h google/protobuf/unknown_field_set.h \
+ google/protobuf/message.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/iosfwd \
+ google/protobuf/repeated_field.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/iterator \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stream_iterator.h \
+ google/protobuf/stubs/casts.h google/protobuf/extension_set.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/map \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_map.h \
+ google/protobuf/generated_enum_reflection.h \
+ google/protobuf/generated_enum_util.h google/protobuf/io/printer.h \
+ google/protobuf/io/zero_copy_stream.h \
+ google/protobuf/compiler/csharp/csharp_doc_comment.h \
+ google/protobuf/compiler/csharp/csharp_helpers.h \
+ google/protobuf/compiler/csharp/csharp_repeated_message_field.h \
+ google/protobuf/compiler/csharp/csharp_field_base.h \
+ google/protobuf/stubs/strutil.h google/protobuf/stubs/stringpiece.h \
+ google/protobuf/stubs/hash.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/unordered_map \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_unordered_map.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hashtable.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist_base.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist_base.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_carray.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hashtable.c \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_relops_hash_cont.h \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/unordered_set \
+ /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_unordered_set.h \
+ google/protobuf/compiler/csharp/csharp_source_generator_base.h \
+ google/protobuf/compiler/csharp/csharp_message_field.h \
+ google/protobuf/compiler/csharp/csharp_wrapper_field.h
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/sstream:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/features.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/user_config.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/compat.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/host.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_system.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ioserr.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_sstream.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_exception.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstring.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/string.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/string.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stddef.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/using/cstring:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstddef.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_construct.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_new.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/new:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/cstddef:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/exception:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/type_traits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/type_manips.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/wchar.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/page.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdio.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdio.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdarg.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/time.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/time.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/time.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/time.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_pair.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_locale.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stdlib.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/strings.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/memory.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cmath.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/math.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/math.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_threads.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/pthread.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/pthread.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/signal.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/signal.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/ucontext.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/user.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sched.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_threads.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_alloc.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algobase.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/climits:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algobase.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iterator.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_range_errors.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istream.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ios.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_limits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/cfloat:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/float.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/float.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_limits.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_istream.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_sstream.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
+
+google/protobuf/compiler/code_generator.h:
+
+google/protobuf/stubs/common.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/string:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_hash.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_io.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
+
+google/protobuf/stubs/port.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/assert.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/assert.h:
+
+google/protobuf/stubs/platform_macros.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/sys/param.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/linux/param.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/platforms/android-9/arch-arm/usr/include/asm/param.h:
+
+google/protobuf/stubs/macros.h:
+
+google/protobuf/stubs/logging.h:
+
+google/protobuf/stubs/scoped_ptr.h:
+
+google/protobuf/stubs/mutex.h:
+
+google/protobuf/stubs/callback.h:
+
+google/protobuf/stubs/type_traits.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/utility:
+
+google/protobuf/stubs/template_util.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/vector:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_vector.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_vector.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
+
+google/protobuf/compiler/plugin.h:
+
+google/protobuf/descriptor.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/memory:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h:
+
+google/protobuf/stubs/shared_ptr.h:
+
+google/protobuf/stubs/atomicops.h:
+
+google/protobuf/stubs/atomicops_internals_generic_gcc.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/algorithm:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algo.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_heap.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_heap.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_algo.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/set:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_set.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tree.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_tree.c:
+
+google/protobuf/stubs/once.h:
+
+google/protobuf/descriptor.pb.h:
+
+google/protobuf/io/coded_stream.h:
+
+google/protobuf/arena.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/limits:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/typeinfo:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_typeinfo.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/../../gabi++/include/typeinfo:
+
+google/protobuf/stubs/atomic_sequence_num.h:
+
+google/protobuf/arenastring.h:
+
+google/protobuf/stubs/fastmem.h:
+
+google/protobuf/generated_message_table_driven.h:
+
+google/protobuf/message_lite.h:
+
+google/protobuf/generated_message_util.h:
+
+google/protobuf/has_bits.h:
+
+google/protobuf/metadata.h:
+
+google/protobuf/metadata_lite.h:
+
+google/protobuf/unknown_field_set.h:
+
+google/protobuf/message.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/iosfwd:
+
+google/protobuf/repeated_field.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/iterator:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_stream_iterator.h:
+
+google/protobuf/stubs/casts.h:
+
+google/protobuf/extension_set.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/map:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_map.h:
+
+google/protobuf/generated_enum_reflection.h:
+
+google/protobuf/generated_enum_util.h:
+
+google/protobuf/io/printer.h:
+
+google/protobuf/io/zero_copy_stream.h:
+
+google/protobuf/compiler/csharp/csharp_doc_comment.h:
+
+google/protobuf/compiler/csharp/csharp_helpers.h:
+
+google/protobuf/compiler/csharp/csharp_repeated_message_field.h:
+
+google/protobuf/compiler/csharp/csharp_field_base.h:
+
+google/protobuf/stubs/strutil.h:
+
+google/protobuf/stubs/stringpiece.h:
+
+google/protobuf/stubs/hash.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/unordered_map:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_unordered_map.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hashtable.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist_base.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist_base.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_slist.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_carray.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_hashtable.c:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_relops_hash_cont.h:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/unordered_set:
+
+/home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/stlport/stl/_unordered_set.h:
+
+google/protobuf/compiler/csharp/csharp_source_generator_base.h:
+
+google/protobuf/compiler/csharp/csharp_message_field.h:
+
+google/protobuf/compiler/csharp/csharp_wrapper_field.h:

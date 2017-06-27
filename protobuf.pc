@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 3.3.0
+Libs: -L${libdir} -lprotobuf  
+Libs.private: -lz -llog /home/user/SDKS/ANDROID/NDK/android-ndk-r13b/sources/cxx-stl/stlport/libs/armeabi-v7a/libstlport_static.a
+Cflags: -I${includedir} 
+Conflicts: protobuf-lite
